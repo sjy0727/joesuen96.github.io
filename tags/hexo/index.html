@@ -22,7 +22,7 @@
     <meta name="description" content="">
     <meta property="og:type" content="website">
 <meta property="og:title" content="Joe Suen&#39;s Blog">
-<meta property="og:url" content="https://joesuen.com/categories/Windows-Terminal/index.html">
+<meta property="og:url" content="https://joesuen.com/tags/hexo/index.html">
 <meta property="og:site_name" content="Joe Suen&#39;s Blog">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="Joe Suen">
@@ -354,19 +354,20 @@
     
     
     <article class="index-post">
-        <a class="abstract-title" href = "/2020/07/11/Windows-Terminal-Preview%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/" >
+        <a class="abstract-title" href = "/2020/07/11/WSL2%E4%B8%8B%E7%94%A8Hexo%E5%9C%A8github%E4%B8%8A%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/" >
             
-                <span>Windows Terminal Preview配置文件</span>
+                <span>WSL2下用Hexo在github上搭建静态博客</span>
         </a>
         <div class="abstract-content">
-            Windows Terminal配置文件备份
+            环境搭建
+
+以为操作均在 wsl2 (Windows subsystem for linux 2)上的 Ubuntu-18.04 LTS 上以 root 用户操作完成
 
 
-官方文档
-详见:https://docs.microsoft.com/zh-cn/windows/terminal/
-
-settings.json
-123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102...
+nodejs的安装与配置
+不要直接通过sudo apt-get install nodejs安装 nodejs ，因为源镜像版本过低
+123#这里直接使用nodesource提供的命令curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -sudo apt-get install -y nodejs
+npm 镜像源在国外导致速度过慢，切换淘宝镜像源地...
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
@@ -377,7 +378,11 @@ settings.json
             
             <div class= abstract-tags >
     
-        <a class="post-tag" href="javascript:void(0);" data-tags = "Windows Terminal">Windows Terminal</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags = "WSL">WSL</a>
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "hexo">hexo</a>
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "linux">linux</a>
     
 </div>
             
